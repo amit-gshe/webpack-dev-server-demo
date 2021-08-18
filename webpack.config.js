@@ -41,7 +41,7 @@ module.exports = {
     contentBase: path.resolve(__dirname, "dist"),
     port: 3000,
     writeToDisk: true,
-    staticOptions: {
+    staticOptions: { // This option not works
       etag: false,
       immutable: true,
       maxAge: "7 days",
